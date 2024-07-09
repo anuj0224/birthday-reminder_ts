@@ -16,7 +16,6 @@
     "@types/node": "^20.14.10",
     "@types/nodemailer": "^6.4.15",
     "@types/sequelize": "^4.28.20",
-    "express": "^4.19.2",
     "mysql2": "^3.10.2",
     "node-cron": "^3.0.3",
     "nodemailer": "^6.9.14",
