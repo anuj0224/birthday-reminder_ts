@@ -32,7 +32,7 @@ export const checkBirthdaysAndSendReminders = async (): Promise<void> => {
 
       usersExceptCurrent.forEach((colleague) => {
         const mailOptions = {
-          from: 'mouryaanuj62@gmail.com',
+          from: 'SENDERS_EMAIL_ADDRESS',
           to: colleague.email,
           subject: 'Birthday Reminder',
           text: `Dear ${colleague.name},\n\nToday is ${user.name}'s birthday! Don't forget to wish them a fantastic day.\n\nBest regards,\nYour Team`,
